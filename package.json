@@ -8,13 +8,15 @@
   "scripts": {
     "dev": "parcel index.html 'sidur/*.html' --lazy --no-cache",
     "build": "parcel build index.html 'sidur/*.html'",
-    "lint": "stylelint 'sidur/**/*.css'",
-    "lint:fix": "stylelint 'sidur/**/*.css' --fix"
+    "lint": "stylelint 'styles/**/*.scss'",
+    "lint:fix": "stylelint 'styles/**/*.scss' --fix"
   },
   "devDependencies": {
     "parcel": "^2.16.4",
+    "sass": "^1.105.1",
     "stylelint": "^17.15.0",
     "stylelint-config-recess-order": "^7.8.0",
+    "stylelint-config-sass-guidelines": "^13.0.0",
     "stylelint-config-standard": "^40.0.0",
     "stylelint-order": "^8.1.1"
   }

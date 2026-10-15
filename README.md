@@ -2,7 +2,7 @@ HÓPVERKEFNI 1:
 
 Keyrsla verkefnis:
 
-Fyrst þarf að setja upp nauðsynslega pakka npm install, síðan til
+Fyrst þarf að setja upp nauðsynslega pakka með npm install, síðan til
 að ræsa verkefnið skal nota npm run dev og til að keyra stylelint skal nota npm run lint.
 
 Uppsetning verkefnis:

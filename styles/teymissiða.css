@@ -1,4 +1,7 @@
-@import url("teymi-header.css");
+body {
+    font-family: Inter, "Segoe UI", sans-serif;
+}
+
 /* Header section */
 
 .teymi-page .header-section {
@@ -34,7 +37,7 @@
 
 @media (max-width: 768px) {
     .teymi-page .header-section {
-        padding-bottom: 64px 32px;
+        padding: 64px 32px;
     }
 }
 
@@ -51,6 +54,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 32px;
+    box-sizing: border-box;
 }
 
 .team-member > img {
@@ -98,7 +102,7 @@
         padding: 0 16px;
     }
 
-    .team-member img {
+    .team-member > img {
         width: 100%;
         height: 280px;
         object-fit: cover;
@@ -313,5 +317,10 @@
 
     .newsletter form a {
         grid-column: 1;
+        grid-row: 2;
+    }
+
+    .newsletter button {
+        grid-row: 3;
     }
 }

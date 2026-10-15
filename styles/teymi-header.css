@@ -22,8 +22,15 @@
 
 .teymi-page .header-section p:last-child {
     max-width: 768px;
-    margin: 0;
+    margin: 0 auto;
     font-size: 20px;
     line-height: 30px;
     color: #525252;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .teymi-page .header-section {
+        padding-bottom: 64px 0;
+    }
 }

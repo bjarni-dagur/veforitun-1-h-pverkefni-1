@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Skráðu þig inn</title>
+    <meta
+      name="description"
+      content="Velkomin aftur í Forritið"
+    />
+    <meta property="og:title" content="Skráðu þig inn" />
+    <meta
+      property="og:description"
+      content="Velkomin aftur í Forritið."
+    />
+    <link rel="stylesheet" href="../styles/styles_skraningarsida.css" />
+  </head>
+
+  <body class="sign-in-page">
+
+    <section class="header-section">
+      <img src="../myndir/Logomark2.png"/>
+      <h1>Skráðu þig inn</h1>
+      <p>Velkominn aftur í Forritið</p>
+    </section>
+
+    <main class="content">
+      <section class="credentials">
+        <label class="label" for="email">Netfang</label>
+        <div>
+            <input class="input"
+              type="email"
+              id="netfang"
+              name="netfang"
+              required
+              />
+          </div>
+          <label class="label" for="password">Lykilorð</label>
+          <div>
+            <input class="input"
+              type="password"
+              id="lykilorð"
+              name="lykilorð"
+              required
+            />
+          </div>
+      </section>
+      <section class="text">
+          <div>
+            <label>
+              <input type="checkbox" name="skilmalar" required />
+              Mundu eftir mér í 30 daga
+            </label>
+          </div>
+          <div>
+            <a class="link" href="">Gleymt lykilorð</a>
+          </div>
+      </section>
+      <section class="buttons">
+            <div>
+              <a class="button-link trial-primary" href="">Innskráning</a>
+            </div>
+            <div>
+              <a class="button-link trial-secondary" href="">
+                <img class="Google logo" src="../myndir/Social icon.png" alt="" />
+                Innskráning með Google
+              </a>
+            </div>
+      </section>
+      <section class="new">
+        <div>
+          <p>Ekki með aðgang?</p>
+        </div>
+        <div>
+          <a class="link" href="">Skráðu þig</a>
+        </div>
+      </section>
+    </main>
+
+  </body>
+</html>

@@ -7,7 +7,7 @@
   "type": "commonjs",
   "scripts": {
     "dev": "parcel index.html 'sidur/*.html' --no-cache",
-    "build": "parcel build index.html 'sidur/*.html'",
+    "build": "parcel build index.html 'sidur/*.html' --no-optimize",
     "lint": "stylelint 'styles/**/*.scss'",
     "lint:fix": "stylelint 'styles/**/*.scss' --fix"
   },
